@@ -1,0 +1,14 @@
+{
+    "$schema": "https://json.schemastore.org/schema-catalog.json",
+    "version": 1,
+    "schemas": [
+        {
+            "name": "Primary schema",
+            "description": "Primary schema is a default test schema",
+            "fileMatch": [
+                "schemas.yaml"
+            ],
+            "url": "https://raw.githubusercontent.com/scav/schemas/main/schemas/primary.json"
+        }
+    ]
+}
