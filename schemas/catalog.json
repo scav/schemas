@@ -9,6 +9,14 @@
                 "schemas.yaml"
             ],
             "url": "https://raw.githubusercontent.com/scav/schemas/main/schemas/primary.json"
+        },
+        {
+            "name": "Thing bing",
+            "description": "A thing from Acme's catalog",
+            "fileMatch": [
+                "thingbing.yaml"
+            ],
+            "url": "https://raw.githubusercontent.com/scav/schemas/main/schemas/thingbing.json"
         }
     ]
 }

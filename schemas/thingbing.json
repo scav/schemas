@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://example.com/product.schema.json",
+    "title": "Thing bing",
+    "description": "A thing from Acme's catalog",
+    "type": "object",
+    "properties": {
+        "age": {
+            "description": "The age of the thing being describing",
+            "type": "integer"
+        },
+        "name": {
+            "description": "Name of the thing being described.",
+            "type": "string"
+        },
+        "location": {
+            "description": "Location of the thing being described",
+            "type": "string"
+        }
+    },
+    "required": [
+        "name",
+        "location"
+    ]
+}
