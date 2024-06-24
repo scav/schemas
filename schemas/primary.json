@@ -10,16 +10,16 @@
       "type": "integer"
     },
     "productName": {
-      "description": "Name of the product",
+      "description": "Name of the product used to describe it.",
       "type": "string"
     },
     "price": {
-      "description": "The price of the product",
+      "description": "The price of the product up for sale.\nValid currencies are NOK and USD.",
       "type": "number",
       "exclusiveMinimum": 0
     },
     "tags": {
-      "description": "Tags for the product",
+      "description": "Tags for the product to help categorize it correctly",
       "type": "array",
       "items": {
         "type": "string"
